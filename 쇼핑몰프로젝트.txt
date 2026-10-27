@@ -1,0 +1,6 @@
+서브페이지: react-router-dom
+전역변수: zustand
+swiper: swiper
+디자인(스타일): scss => sass
+
+=>npm install react-roter-dom zustand swiper sass firebase => npm run dev
