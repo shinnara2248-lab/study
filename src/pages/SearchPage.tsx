@@ -2,6 +2,6 @@ import React from 'react'
 
 export const SearchPage = () => {
     return (
-        <div>SearchPage</div>
+       <div className='sub-page'>SearchPage</div>
     )
 }

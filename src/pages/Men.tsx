@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Men = () => {
     return (
-        <div>Men</div>
+       <div className='sub-page'>Men</div>
     )
 }

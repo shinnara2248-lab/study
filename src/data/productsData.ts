@@ -1,4 +1,4 @@
-import type { Product } from "../types/product";
+import type { Product } from "../types/Product";
 
 export const productsData: Product[] = [
     { id: 1, category: "women", subcategory: "상의", title: "Women's Casual T-Shirt", price: 29000, image: "/images/women/women1.jpg", description: "Comfortable cotton t-shirt for everyday wear.", rating: 4 },
@@ -25,27 +25,27 @@ export const productsData: Product[] = [
     { id: 19, category: "men", subcategory: "상의", title: "Men's Suit", price: 220000, image: "/images/men/men9.jpg", description: "Formal business suit.", rating: 5 },
     { id: 20, category: "men", subcategory: "상의", title: "Men's Polo Shirt", price: 48000, image: "/images/men/men10.jpg", description: "Casual polo shirt.", rating: 4 },
 
-    { id: 21, category: "jewelery", subcategory: "모자", title: "Gold Necklace", price: 199000, image: "/images/jewelery/jewelery1.jpg", description: "Elegant gold necklace.", rating: 5 },
-    { id: 22, category: "jewelery", subcategory: "모자", title: "Silver Ring", price: 59000, image: "/images/jewelery/jewelery2.jpg", description: "Minimal silver ring.", rating: 3 },
-    { id: 23, category: "jewelery", subcategory: "모자", title: "Diamond Earrings", price: 299000, image: "/images/jewelery/jewelery3.jpg", description: "Luxury diamond earrings.", rating: 5 },
-    { id: 24, category: "jewelery", subcategory: "모자", title: "Bracelet", price: 79000, image: "/images/jewelery/jewelery4.jpg", description: "Stylish bracelet.", rating: 4 },
-    { id: 25, category: "jewelery", subcategory: "모자", title: "Pendant", price: 89000, image: "/images/jewelery/jewelery5.jpg", description: "Simple pendant necklace.", rating: 4 },
+    { id: 21, category: "accessories", subcategory: "모자", title: "Gold Necklace", price: 199000, image: "/images/accessories/accessories1.jpg", description: "Elegant gold necklace.", rating: 5 },
+    { id: 22, category: "accessories", subcategory: "모자", title: "Silver Ring", price: 59000, image: "/images/accessories/accessories2.jpg", description: "Minimal silver ring.", rating: 3 },
+    { id: 23, category: "accessories", subcategory: "모자", title: "Diamond Earrings", price: 299000, image: "/images/accessories/accessories3.jpg", description: "Luxury diamond earrings.", rating: 5 },
+    { id: 24, category: "accessories", subcategory: "모자", title: "Bracelet", price: 79000, image: "/images/accessories/accessories4.jpg", description: "Stylish bracelet.", rating: 4 },
+    { id: 25, category: "accessories", subcategory: "모자", title: "Pendant", price: 89000, image: "/images/accessories/accessories5.jpg", description: "Simple pendant necklace.", rating: 4 },
 
-    { id: 26, category: "jewelery", subcategory: "가방", title: "Pearl Necklace", price: 159000, image: "/images/jewelery/jewelery6.jpg", description: "Classic pearl necklace.", rating: 5 },
-    { id: 27, category: "jewelery", subcategory: "가방", title: "Gold Ring", price: 129000, image: "/images/jewelery/jewelery7.jpg", description: "Premium gold ring.", rating: 4 },
-    { id: 28, category: "jewelery", subcategory: "가방", title: "Anklet", price: 49000, image: "/images/jewelery/jewelery8.jpg", description: "Trendy anklet.", rating: 3 },
-    { id: 29, category: "jewelery", subcategory: "가방", title: "Brooch", price: 69000, image: "/images/jewelery/jewelery9.jpg", description: "Elegant brooch.", rating: 4 },
-    { id: 30, category: "jewelery", subcategory: "가방", title: "Charm Bracelet", price: 99000, image: "/images/jewelery/jewelery10.jpg", description: "Custom charm bracelet.", rating: 5 },
+    { id: 26, category: "accessories", subcategory: "가방", title: "Pearl Necklace", price: 159000, image: "/images/accessories/accessories6.jpg", description: "Classic pearl necklace.", rating: 5 },
+    { id: 27, category: "accessories", subcategory: "가방", title: "Gold Ring", price: 129000, image: "/images/accessories/accessories7.jpg", description: "Premium gold ring.", rating: 4 },
+    { id: 28, category: "accessories", subcategory: "가방", title: "Anklet", price: 49000, image: "/images/accessories/accessories8.jpg", description: "Trendy anklet.", rating: 3 },
+    { id: 29, category: "accessories", subcategory: "가방", title: "Brooch", price: 69000, image: "/images/accessories/accessories9.jpg", description: "Elegant brooch.", rating: 4 },
+    { id: 30, category: "accessories", subcategory: "가방", title: "Charm Bracelet", price: 99000, image: "/images/accessories/accessories10.jpg", description: "Custom charm bracelet.", rating: 5 },
 
-    { id: 31, category: "electronics", subcategory: "운동화", title: "Smartphone", price: 999000, image: "/images/electronics/electronics1.jpg", description: "Latest smartphone model.", rating: 5 },
-    { id: 32, category: "electronics", subcategory: "운동화", title: "Laptop", price: 1599000, image: "/images/electronics/electronics2.jpg", description: "High performance laptop.", rating: 5 },
-    { id: 33, category: "electronics", subcategory: "운동화", title: "Wireless Earbuds", price: 199000, image: "/images/electronics/electronics3.jpg", description: "Noise cancelling earbuds.", rating: 4 },
-    { id: 34, category: "electronics", subcategory: "운동화", title: "Smartwatch", price: 299000, image: "/images/electronics/electronics4.jpg", description: "Fitness tracking smartwatch.", rating: 4 },
-    { id: 35, category: "electronics", subcategory: "운동화", title: "Tablet", price: 699000, image: "/images/electronics/electronics5.jpg", description: "Portable tablet device.", rating: 4 },
+    { id: 31, category: "shoes", subcategory: "운동화", title: "Smartphone", price: 999000, image: "/images/shoes/shoes1.jpg", description: "Latest smartphone model.", rating: 5 },
+    { id: 32, category: "shoes", subcategory: "운동화", title: "Laptop", price: 1599000, image: "/images/shoes/shoes2.jpg", description: "High performance laptop.", rating: 5 },
+    { id: 33, category: "shoes", subcategory: "운동화", title: "Wireless Earbuds", price: 199000, image: "/images/shoes/shoes3.jpg", description: "Noise cancelling earbuds.", rating: 4 },
+    { id: 34, category: "shoes", subcategory: "운동화", title: "Smartwatch", price: 299000, image: "/images/shoes/shoes4.jpg", description: "Fitness tracking smartwatch.", rating: 4 },
+    { id: 35, category: "shoes", subcategory: "운동화", title: "Tablet", price: 699000, image: "/images/shoes/shoes5.jpg", description: "Portable tablet device.", rating: 4 },
 
-    { id: 36, category: "electronics", subcategory: "샌들", title: "Bluetooth Speaker", price: 129000, image: "/images/electronics/electronics6.jpg", description: "Portable speaker.", rating: 3 },
-    { id: 37, category: "electronics", subcategory: "샌들", title: "Monitor", price: 249000, image: "/images/electronics/electronics7.jpg", description: "Full HD monitor.", rating: 4 },
-    { id: 38, category: "electronics", subcategory: "샌들", title: "Keyboard", price: 89000, image: "/images/electronics/electronics8.jpg", description: "Mechanical keyboard.", rating: 3 },
-    { id: 39, category: "electronics", subcategory: "샌들", title: "Mouse", price: 49000, image: "/images/electronics/electronics9.jpg", description: "Wireless mouse.", rating: 3 },
-    { id: 40, category: "electronics", subcategory: "샌들", title: "Camera", price: 899000, image: "/images/electronics/electronics10.jpg", description: "Digital camera.", rating: 5 }
+    { id: 36, category: "shoes", subcategory: "샌들", title: "Bluetooth Speaker", price: 129000, image: "/images/shoes/shoes6.jpg", description: "Portable speaker.", rating: 3 },
+    { id: 37, category: "shoes", subcategory: "샌들", title: "Monitor", price: 249000, image: "/images/shoes/shoes7.jpg", description: "Full HD monitor.", rating: 4 },
+    { id: 38, category: "shoes", subcategory: "샌들", title: "Keyboard", price: 89000, image: "/images/shoes/shoes8.jpg", description: "Mechanical keyboard.", rating: 3 },
+    { id: 39, category: "shoes", subcategory: "샌들", title: "Mouse", price: 49000, image: "/images/shoes/shoes9.jpg", description: "Wireless mouse.", rating: 3 },
+    { id: 40, category: "shoes", subcategory: "샌들", title: "Camera", price: 899000, image: "/images/shoes/shoes10.jpg", description: "Digital camera.", rating: 5 }
 ];

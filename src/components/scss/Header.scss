@@ -1,0 +1,27 @@
+@use "../../App.scss" as g;
+
+header {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+
+    .inner {
+        @include g.myFlex();
+
+        .header-left {
+            @include g.myFlex();
+
+            .logo {
+                width: 120px;
+            }
+
+            .main-menu {
+                @include g.myFlex();
+            }
+        }
+
+        .header-right {}
+    }
+}

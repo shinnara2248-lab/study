@@ -1,5 +1,5 @@
 export const All = () => {
   return (
-    <div>All</div>
+    <div className='sub-page'>All</div>
   )
 }

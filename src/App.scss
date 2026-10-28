@@ -1,0 +1,28 @@
+// 변수선언
+$size: 30px;
+
+// mixin
+@mixin myFlex($jc: space-between, $ai: center, $fw: null, $gap: 20px) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $fw;
+    gap: $gap;
+}
+
+.inner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80pc 0;
+}
+
+.sub-page{
+    padding: 100px 0;
+}
+
+.container{
+    padding-top: 100px;
+}

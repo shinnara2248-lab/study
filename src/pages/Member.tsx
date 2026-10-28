@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Member = () => {
     return (
-        <div>Member</div>
+        <div className='sub-page'>Member</div>
     )
 }

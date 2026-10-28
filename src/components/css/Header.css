@@ -1,0 +1,37 @@
+.inner {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80pc 0;
+}
+
+header {
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+header .inner .header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+header .inner .header-left .logo {
+  width: 120px;
+}
+header .inner .header-left .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
