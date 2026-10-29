@@ -4,7 +4,11 @@
 }
 
 section {
-  padding: 80pc 0;
+  padding: 80px 0;
+}
+
+.sub-page {
+  padding: 100px 0;
 }
 
 header {
@@ -13,6 +17,14 @@ header {
   width: 100%;
   border-bottom: 1px solid #eee;
   padding: 20px 0;
+  z-index: 10000;
+  color: #fff;
+}
+header.active {
+  background: #fff;
+  color: #111;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #eee;
 }
 header .inner {
   display: flex;
@@ -34,4 +46,53 @@ header .inner .header-left .main-menu {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+}
+header .inner .header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+header .inner .header-right .gnb-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+header .inner .header-right .gnb-list li {
+  position: relative;
+}
+header .inner .header-right .gnb-list li img {
+  width: 24px;
+}
+header .inner .header-right .gnb-list li span {
+  display: block;
+  font-size: 12px;
+}
+header .inner .header-right .gnb-list li span.cart-num {
+  position: absolute;
+  top: 0px;
+  right: -4px;
+  background: red;
+  color: #fff;
+  width: 16px;
+  height: 16px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+header .inner .header-right .search-wrap {
+  position: relative;
+}
+header .inner .header-right .search-wrap input {
+  line-height: 2;
+}
+header .inner .header-right .search-wrap button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  background: none;
+  border: none;
+  width: 24px;
+  transform: translateY(-50%);
 }

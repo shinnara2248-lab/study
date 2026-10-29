@@ -1,0 +1,13 @@
+@use "../../App.scss" as *;
+
+.women-list {
+    @include myFlex();
+
+    .women-left {
+        width: 40%;
+    }
+
+    .women-right {
+        width: 60%;
+    }
+}

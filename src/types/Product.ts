@@ -20,7 +20,11 @@ export interface Menu {
 export interface ProductState {
     items: Product[];
     menus: Menu[];
+    searchWord: string;
+    onSetSearchWord: (word: string) => void;
+    searchWordAll:string;
+    onSetSearchWordAll: (word: string) => void;
 
     onFetchItems: () => void;
-    // onItemCategory: (cate?: string) => Product[];
+    onItemCategory: (cate?: string) => Product[];
 }

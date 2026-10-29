@@ -11,13 +11,17 @@ import { Men } from './pages/Men'
 import { Women } from './pages/Women'
 import { Accessories } from './pages/Accessories'
 import { Shoes } from './pages/Shoes'
+import { Login } from './pages/Login'
+import { Member } from './pages/Member'
+import { Cart } from './pages/Cart'
+import { SearchPage } from './pages/SearchPage'
 
 function App() {
   const { onFetchItems } = useProductStore();
   // 데이터를 불러오는 메서드 실행 한번만 실행, 값이 변경되면 실행
   useEffect(() => {
     onFetchItems()
-  },[onFetchItems])
+  }, [onFetchItems])
   return (
     <>
       <Header />
@@ -29,6 +33,14 @@ function App() {
         <Route path='/women' element={<Women />} />
         <Route path='/accessories' element={<Accessories />} />
         <Route path='/shoes' element={<Shoes />} />
+
+        {/* gnb 메뉴 */}
+        <Route path='/login' element={<Login />} />
+        <Route path='/member' element={<Member />} />
+        <Route path='/cart' element={<Cart />} />
+
+        {/* searchPage */}
+        <Route path='/searchPage' element={<SearchPage />} />
       </ Routes>
       <Footer />
     </>

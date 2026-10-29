@@ -6,6 +6,15 @@ header {
     width: 100%;
     border-bottom: 1px solid #eee;
     padding: 20px 0;
+    z-index: 10000;
+    color: #fff;
+
+    &.active {
+        background: #fff;
+        color: #111;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid #eee;
+    }
 
     .inner {
         @include g.myFlex();
@@ -22,6 +31,56 @@ header {
             }
         }
 
-        .header-right {}
+        .header-right {
+            @include g.myFlex();
+
+            .gnb-list {
+                @include g.myFlex($gap: 15px);
+
+                li {
+                    position: relative;
+
+                    img {
+                        width: 24px;
+                    }
+
+                    span {
+                        display: block;
+                        font-size: 12px;
+
+                        &.cart-num {
+                            position: absolute;
+                            top: 0px;
+                            right: -4px;
+                            background: red;
+                            color: #fff;
+                            width: 16px;
+                            height: 16px;
+                            border-radius: g.$size;
+                            text-align: center;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+
+            .search-wrap {
+                position: relative;
+
+                input {
+                    line-height: 2;
+                }
+
+                button {
+                    position: absolute;
+                    top: 50%;
+                    right: 10px;
+                    background: none;
+                    border: none;
+                    width: 24px;
+                    transform: translateY(-50%);
+                }
+            }
+        }
     }
 }

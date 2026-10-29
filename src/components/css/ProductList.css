@@ -1,0 +1,18 @@
+.inner {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.sub-page {
+  padding: 100px 0;
+}
+
+.sub-goods-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}

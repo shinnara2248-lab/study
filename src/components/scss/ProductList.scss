@@ -1,0 +1,7 @@
+@use "../../App.scss" as g;
+
+.sub-goods-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: g.$size;
+}

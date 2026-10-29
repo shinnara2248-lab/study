@@ -1,0 +1,29 @@
+.inner {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80pc 0;
+}
+
+.sub-page {
+  padding: 100px 0;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+.women-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.women-list .women-left {
+  width: 40%;
+}
+.women-list .women-right {
+  width: 60%;
+}
